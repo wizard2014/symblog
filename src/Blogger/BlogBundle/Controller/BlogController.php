@@ -15,7 +15,7 @@ class BlogController extends Controller
      * @param $id
      * @return \Symfony\Component\HttpFoundation\Response
      */
-    public function showAction($id)
+    public function showAction($id, $slug)
     {
         $em = $this->getDoctrine()->getManager();
 
